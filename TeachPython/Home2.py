@@ -1,3 +1,12 @@
 x = int(input('Введите х: '))
 y = int(input('Введите у: '))
-print(f'Сумма: ', x+y, f'Произведение: ', x*y) #Прошу подсказать, как сдлеать произведение со следующей строки.
+if x+y > x-y:
+    print(x+y)
+elif x-y > x*y:
+    print(x-y)
+elif x*y > x/y:
+    print(x*y)
+elif x/y > x//y:
+    print(x/y)
+else:
+    print(x//y)
