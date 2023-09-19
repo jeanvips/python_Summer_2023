@@ -5,7 +5,7 @@ b = x - y
 c = x*y
 d = x/y
 e = x//y
-ads = [a,b,c,d,e]
-res = set(ads)
-res.remove(max(res))
-print(max(res))
+ads = [a,b,c,d,e] #задаю список
+asb = set(ads) #оставляю уникальные числа
+asb.remove(max(asb))#убираю максимальное
+print(max(asb))
