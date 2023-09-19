@@ -1,5 +1,5 @@
-x = int(input())
-y = int(input())
+x = int(input('Введите х: '))
+y = int(input('Введите у: '))
 a = x + y
 b = x - y
 c = x*y
