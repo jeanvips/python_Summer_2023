@@ -1,12 +1,17 @@
-x = int(input('Введите х: '))
-y = int(input('Введите у: '))
-if x+y > x-y:
-    print(x+y)
-elif x-y > x*y:
-    print(x-y)
-elif x*y > x/y:
-    print(x*y)
-elif x/y > x//y:
-    print(x/y)
+x = int(input())
+y = int(input())
+a = x + y
+b = x - y
+c = x*y
+d = x/y
+e = x//y
+if a > b and a > c and a > d and a > e:
+    print(a)
+elif b > c and b > d and b > e:
+    print(b)
+elif c > d and c > e:
+    print(c)
+elif d > e:
+    print(d)
 else:
-    print(x//y)
+    print(e)
