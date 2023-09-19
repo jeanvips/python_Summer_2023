@@ -1,0 +1,6 @@
+name = input('Ваше имя?')
+name2 = input('Ваша фамилия?')
+print('Здравствуй!', name, name2)
+name_of_person = input('Введите имя: ')
+surname = input('Введите  фамилию')
+print(f'Привет, {name_of_person} {surname}')
